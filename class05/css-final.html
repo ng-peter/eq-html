@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        table,
+        td {
+            border: 1px solid black;
+        }
+        span {
+            color: yellowgreen
+        }
+        #spanTwo {
+            color: aqua;
+        }
+        .bannerImg {
+            border: 5px dotted violet;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>External Links</h1>
+    <a href="www.google.com">Link to google! Fail :(</a>
+    <br />
+    <a href="http://www.google.com">Link to google! Works! :D</a>
+    <br />
+    <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_hyperlinks">Link to Hyperlinks Doc in MDN</a>
+    <p id='lorem'>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus condimentum, velit eu tristique suscipit, est est euismod
+        dui, nec laoreet purus elit id ipsum. Ut id lorem sed tellus lacinia efficitur. Nulla dictum condimentum orci vehicula
+        condimentum.
+        <span>In dolor neque, congue non ipsum at, cursus elementum odio. Fusce tristique nibh vel urna elementum vestibulum. Interdum
+            et malesuada fames ac ante ipsum primis in faucibus.</span>
+        Cras vel dui commodo, semper lacus quis, dapibus leo. Nam arcu augue, viverra sed ante eget, hendrerit pretium tellus. Vivamus
+        tincidunt, libero in eleifend auctor, sapien turpis pretium elit, at sagittis diam elit id augue. Sed ut neque blandit,
+        interdum dui nec, gravida eros. <span id="spanTwo">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+        himenaeos. </span>Curabitur feugiat lacus ut lorem sodales, vitae semper risus egestas. In hac habitasse platea dictumst.
+    </p>
+    <div>
+        <img src="https://via.placeholder.com/150" alt="this is a placeholder image!" />
+
+        <img class="bannerImg" src="https://via.placeholder.com/150" alt="this is a placeholder image!" />
+        <img class="bannerImg" src="https://via.placeholder.com/150" alt="this is a placeholder image!" width="20" />
+    </div>
+    <h1>table with horizontal table data cells</h1>
+    <table style="border: 1px solid red">
+        <thead>
+            <tr>
+                <th colspan="7" style="border: 1px solid black">
+                    Days of the week (horizontal)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border: 1px solid black">Monday</td>
+                <td>Tuesday</td>
+                <td>Wednesday</td>
+                <td>Thursday</td>
+                <td>Friday</td>
+                <td>Saturday</td>
+                <td>Sunday</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1 id='lorem'>table with vertical table data cells</h1>
+
+    <table style="border: 1px solid black">
+        <thead>
+            <tr>
+                <th>Days of the week (vertical)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border: 1px solid black">Monday</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black">Tuesday</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black">Wednesday</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black">Thursday</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black">Friday</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black">Saturday</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black">Sunday</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>table with spans</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <td colspan="2">CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+            </tr>
+            <tr>
+                <td rowspan="2">CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td colspan="2">CELLDATA</td>
+            </tr>
+            <tr>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td rowspan="2">CELLDATA</td>
+            </tr>
+            <tr>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td rowspan="3">CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+            </tr>
+            <tr>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+            </tr>
+            <tr>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- DivTable.com -->
+
+    <!-- HIDING SOME STUFF HERE!!!
+    <p>I HAVE SOME HIDDEN CONTENT HERE! pst, a hidden paragraph :O</p>
+    -->
+
+    <h1>tableception</h1>
+    <table hidden>
+        <tbody>
+            <tr>
+                <td colspan="2">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td colspan="2">CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td colspan="2">CELLDATA</td>
+                            </tr>
+                            <tr>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td rowspan="2">CELLDATA</td>
+                            </tr>
+                            <tr>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td rowspan="3">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td colspan="2">CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                            </tr>
+                                            <tr>
+                                                <td rowspan="2">CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td colspan="2">CELLDATA</td>
+                                            </tr>
+                                            <tr>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td rowspan="2">CELLDATA</td>
+                                            </tr>
+                                            <tr>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td rowspan="3">CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                            </tr>
+                                            <tr>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                            </tr>
+                                            <tr>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                                <td>CELLDATA</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                            </tr>
+                            <tr>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                            </tr>
+                            <tr>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+            </tr>
+            <tr>
+                <td rowspan="2">CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td colspan="2">CELLDATA</td>
+            </tr>
+            <tr>
+                <td>CELLDATA</td>
+                <td>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td colspan="2">CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td colspan="2">CELLDATA</td>
+                            </tr>
+                            <tr>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td rowspan="2">CELLDATA</td>
+                            </tr>
+                            <tr>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td rowspan="3">CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                            </tr>
+                            <tr>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                            </tr>
+                            <tr>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td rowspan="2">CELLDATA</td>
+            </tr>
+            <tr>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td rowspan="3">CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+            </tr>
+            <tr>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+            </tr>
+            <tr>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+                <td>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td colspan="2">CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td colspan="2">CELLDATA</td>
+                            </tr>
+                            <tr>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td rowspan="2">CELLDATA</td>
+                            </tr>
+                            <tr>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td rowspan="3">CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                            </tr>
+                            <tr>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                            </tr>
+                            <tr>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                                <td>CELLDATA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>CELLDATA</td>
+                <td>CELLDATA</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="#lorem">Back to paragraph</a>
+</body>
+
+</html>
