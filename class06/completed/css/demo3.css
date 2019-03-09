@@ -1,0 +1,11 @@
+* {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-radius: 20px;
+}
+a {
+  color: goldenrod;
+}
+a:hover {
+  color: greenyellow;
+  background-color: goldenrod;
+}
