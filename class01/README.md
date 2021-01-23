@@ -40,6 +40,16 @@ atom-live-server
 
 ![alt text](https://github.com/ng-peter/eq-html/raw/master/class01/html-css-js-stack.png "Modern Web Stack")
 
+[Getting started with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#anatomy_of_an_html_element)
+
+---
+
+## Anatomy of an HTML element
+
+![alt text](https://github.com/ng-peter/eq-html/raw/master/class01/grumpy-cat-small.png "HTML Tag Anatomy")
+
+[MDN - Anatomy of an HTML element](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#anatomy_of_an_html_element)
+
 ---
 
 ## `<TAGS>` and HTML Anatomy
