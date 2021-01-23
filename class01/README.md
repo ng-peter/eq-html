@@ -36,6 +36,12 @@ atom-live-server
 
 ---
 
+## What is HTML?
+
+![alt text](https://github.com/ng-peter/eq-html/raw/master/class01/html-css-js-stack.png "Modern Web Stack")
+
+---
+
 ## `<TAGS>` and HTML Anatomy
 
 We focused on understanding what tags are and what essential tags are required for an HTML page:
