@@ -1,6 +1,6 @@
 # HTML - Class 01
 
-## Getting Started Guides:
+## Getting Started Guides
 
 W3Schools:  
 [HTML5 Tutorial](https://www.w3schools.com/html/default.asp)
@@ -11,7 +11,7 @@ Mozilla Developer Network:
 
 ---
 
-## Developers’ Docs + Tags References:
+## Developers’ Docs + Tags References
 
 [HTML - Mozilla Dev Docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
@@ -21,7 +21,7 @@ Mozilla Developer Network:
 
 ---
 
-## Recommended Free Code Editors:
+## Recommended Free Code Editors
 
 [Visual Studio Code](https://code.visualstudio.com/)  
 Recommended Plugins:  
